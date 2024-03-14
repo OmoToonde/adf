@@ -2,7 +2,7 @@
 	"name": "FetchAllTables",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "SqlServer2",
+			"referenceName": "SqlServer1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
