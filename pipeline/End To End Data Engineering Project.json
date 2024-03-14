@@ -138,6 +138,9 @@
 								"secureInput": false
 							},
 							"userProperties": [],
+							"typeProperties": {
+								"notebookPath": "/Medallion Workspace/Base Notebook"
+							},
 							"linkedServiceName": {
 								"referenceName": "AzureDatabricks",
 								"type": "LinkedServiceReference"
