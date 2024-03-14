@@ -120,7 +120,7 @@
 							]
 						},
 						{
-							"name": "Notebook for transformation",
+							"name": "Notebook for Transformation",
 							"type": "DatabricksNotebook",
 							"dependsOn": [
 								{
@@ -137,7 +137,11 @@
 								"secureOutput": false,
 								"secureInput": false
 							},
-							"userProperties": []
+							"userProperties": [],
+							"linkedServiceName": {
+								"referenceName": "AzureDatabricks",
+								"type": "LinkedServiceReference"
+							}
 						}
 					]
 				}
